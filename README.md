@@ -1,6 +1,6 @@
 to run
 
-1. Copy the repo
+1. clone the repo
 2. install dependencies
 
 ```bash
@@ -25,3 +25,5 @@ pnpm install
 ```bash
   pnpm run start:dev
 ```
+
+6.  Check all the endpoints in the .rest file (download the extension)

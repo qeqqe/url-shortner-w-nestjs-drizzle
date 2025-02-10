@@ -1,1 +1,25 @@
 GET http://localhost:3000/user
+
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "username": "John Doe",
+  "email": "random@gmail.com",
+  "password": "123456"
+}
+
+###
+
+POST http://localhost:3000/url
+Content-Type: application/json
+
+{
+  "userId": "8839f876-e6b8-4e0a-bfc2-b3e4e84718a9",
+  "url": "https://mlu-explain.github.io/neural-networks/"
+}
+### 
+
+GET http://localhost:3000/url
